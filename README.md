@@ -17,6 +17,25 @@ Default shortcut is `Ctrl`+`F8` but this can be overridden by going to menu "Pre
 { "keys": ["ctrl+f8"], "command": "py_clean" }
 ```
 
+### Patterns
+
+The following patterns are used to identify files and folders for removal.
+
+#### Files
+
+```
+*.pyc
+*.pyo
+```
+
+#### Folders
+
+```
+build/
+dist/
+*.egg-info/
+```
+
 ### License
 
 This project is licensed under the [MIT License](https://raw.githubusercontent.com/bzaczynski/pyclean/master/LICENSE).
